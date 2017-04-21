@@ -116,5 +116,19 @@ footer {
 @media only screen and (min-width: 20em) {
 
 @media only screen and (min-width: 38em) {
+  .banner-img{
+    width:100%;
+  }
+html{
+  font-size: 110%;
+  line-height: 1.4;
+}
+
+.content {
+   width: 48%;
+   display: inline-block;
+   vertical-align: middle;
+   max-width: 25em;
+ }
 
 @media only screen and (min-width: 60em) {
