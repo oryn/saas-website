@@ -11,7 +11,7 @@ ul {
   float:right;
 }
 
-.banner-img{
+.banner-img {
   width: 100%;
 }
 
@@ -80,7 +80,7 @@ h2 {
   text-align: center;
 }
 
-.inner{
+.inner {
   font-family: 'Source Code Pro', monospace;
   font-size: 10pt;
   color: white;
@@ -116,11 +116,11 @@ footer {
 
 @media only screen and (min-width: 38em) {
 
-  .banner-img{
+  .banner-img {
     width:100%;
   }
 
-html{
+html {
   font-size: 100%;
   line-height: 1.4;
 }
