@@ -72,28 +72,20 @@ h2 {
   text-align: center;
 }
 
-.inner{
+.content {
   color: white;
   font: bold 24px/45px Helvetica, Sans-Serif;
   letter-spacing: 2px;
   padding: 1px;
   text-align: center;
 }
-.opacity-images {
-  padding-bottom: 8em;
-}
 
-.media-icons {
+.inner{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 10pt;
+  color: white;
   text-align: center;
-  padding-top: 4em;
 }
-
-.topbutton {
-  text-align: right;
-  padding-right: 1em;
-
-}
-
 body {
   margin: 0px;
 }
