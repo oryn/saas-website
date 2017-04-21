@@ -31,7 +31,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'avenir', sans-serif;
+  font-family: avenir, sans-serif;
 }
 
 li a:hover {
@@ -39,13 +39,13 @@ li a:hover {
 }
 /* end nav bar */
 .header {
-  width:100%;
+  width: 100%;
   padding-top: 4em;
   padding-bottom: 4em;
 }
 
 .banner {
-  width:100%;
+  width: 100%;
 }
 
 h1 {
@@ -105,7 +105,7 @@ footer {
 }
 
 .d {
-  width:48px;
+  width: 48px;
   display: inline-block;
   position: absolute;
   height: 49px;
@@ -117,7 +117,7 @@ footer {
 @media only screen and (min-width: 38em) {
 
   .banner-img {
-    width:100%;
+    width: 100%;
   }
 
 html {
