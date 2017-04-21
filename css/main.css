@@ -8,7 +8,7 @@ ul {
   overflow: hidden;
   background-color: #000;
   width: 100%;
-  float:right;
+  float: right;
 }
 
 .banner-img {
@@ -35,7 +35,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #F89939;;
+    background-color: #f89939;
 }
 /* end nav bar */
 .header {
