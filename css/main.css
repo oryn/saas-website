@@ -35,9 +35,11 @@ li a {
 }
 
 li a:hover {
-    background-color: #f89939;
+  background-color: #f89939;
 }
+
 /* end nav bar */
+
 .header {
   width: 100%;
   padding-top: 4em;
@@ -87,10 +89,6 @@ h2 {
   text-align: center;
 }
 
-body {
-  margin: 0px;
-}
-
 footer {
   background-color: #000;
   padding-top: .5em;
@@ -120,16 +118,16 @@ footer {
     width: 100%;
   }
 
-html {
-  font-size: 100%;
-  line-height: 1.4;
-}
+  html {
+    font-size: 100%;
+    line-height: 1.4;
+  }
 
-.content {
-   width: 48%;
-   display: inline-block;
-   vertical-align: middle;
-   max-width: 25em;
- }
+  .content {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 25em;
+  }
 
 }
