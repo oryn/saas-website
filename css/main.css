@@ -60,7 +60,7 @@ h1 {
 
 h1 span {
   color: white;
-  font: bold 24px/45px Helvetica, Sans-Serif;
+  font: bold 24px/45px Helvetica, sans-serif;
   letter-spacing: 1px;
   padding: 10px;
   text-align: center;
@@ -68,7 +68,7 @@ h1 span {
 
 h2 {
   color: black;
-  font: bold 24px/45px Helvetica, Sans-Serif;
+  font: bold 24px/45px Helvetica, sans-serif;
   letter-spacing: 1px;
   padding: 10px;
   text-align: center;
@@ -76,15 +76,15 @@ h2 {
 
 .content {
   color: white;
-  font: bold 24px/45px Helvetica, Sans-Serif;
+  font: bold 24px/45px Helvetica, sans-serif;
   letter-spacing: 2px;
   padding: 1px;
   text-align: center;
 }
 
 .inner {
-  font-family: 'Source Code Pro', monospace;
-  font-size: 10pt;
+  font-family: "Source Code Pro", monospace;
+  font-size: 10px;
   color: white;
   text-align: center;
 }
@@ -96,8 +96,8 @@ footer {
 }
 
 .footer-text {
-  font-family: 'Source Code Pro', monospace;
-  font-size: 10pt;
+  font-family: "Source Code Pro", monospace;
+  font-size: 10px;
   color: white;
   text-align: center;
 }
