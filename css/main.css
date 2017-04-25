@@ -102,14 +102,6 @@ footer {
   text-align: center;
 }
 
-.img-flex pad-t push gutter-1-2{
-width: 48px;
-display: inline-block;
-position: absolute;
-height: 49px;
-background: no-repeat top left;
-}
-
 .d {
   width: 48px;
   display: inline-block;
