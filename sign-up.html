@@ -2,12 +2,12 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <meta name= "viewport" content="width=device-width,initial-scale=1">
   <title>Sign Up - Draft</title>
-  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
-  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Oswald" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300" rel="stylesheet">
 </head>
@@ -15,50 +15,50 @@
 
   <header>
     <div>
-      <a href="index.html"><img class="d" src="images/draft-logo.svg" alt="">
+      <a href="index.html"><img class="d" src="images/draft-logo.svg" alt=""></a>
     </div>
-      <nav>
-        <ul>
-          <li><a href="sign-up.html">Sign Up</a></li>
-          <li><a href="community.html">Community</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="tour.html">Tour</a></li>
-        </ul>
-      </nav>
+    <nav>
+      <ul>
+        <li><a href="sign-up.html">Sign Up</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="tour.html">Tour</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="island">
+    <h1 class="milli">Fill in your information here to get started</h1>
+    <form method="POST" action="https://formspree.io/ryan0227@algonquinlive.com">
+      <div class="push">
+        <label for="name">Name</label>
+        <input id="name" name="name">
+      </div>
+      <div class="push">
+        <label for="password">Password</label>
+        <input id="password" name="_password">
+      </div>
+      <div class="push">
+        <label for="email">Your email</label>
+        <input id="email" type="email" placeholder="you@you.com" name="email">
+      </div>
+      <div class="push">
+        <label for="subject">Version</label>
+        <select id="subject" name="_subject">
+          <option>Premium</option>
+          <option>Trial</option>
+          <option>Light</option>
+        </select>
+      </div>
+      <div>
+        <button class="btn" type="submit">Sign Up</button>
+      </div>
+    </form>
 
-      <main class="island">
-        <h2 class="milli">Fill in your information here to get started</h2>
-         <form method="POST" action="https://formspree.io/ryan0227@algonquinlive.com">
-           <div class="push">
-             <label for="name">Name</label>
-             <input id="name" name="name">
-           </div>
-           <div class="push">
-             <label for="password">Password</label>
-             <input id="password" name="_password">
-           </div>
-           <div class="push">
-             <label for="email">Your email</label>
-             <input id="email" type="email" placeholder="you@you.com" name="email">
-           </div>
-           <div class="push">
-             <label for="subject">Version</label>
-             <select id="subject" name="_subject">
-               <option>Premium</option>
-               <option>Trial</option>
-               <option>Light</option>
-             </select>
-           </div>
-           <div>
-             <button class="btn" type="submit">Sign Up</button>
-           </div>
-         </form>
+  </main>
 
-       </main>
-
-<footer>
-  <p class="footer-text">Copyright &copy; Draft 2017</p>
-</footer>
+  <footer>
+    <p class="footer-text">Copyright &copy; Draft 2017</p>
+  </footer>
 
 </body>
 </html>

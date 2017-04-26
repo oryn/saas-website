@@ -11,6 +11,12 @@ ul {
   float: right;
 }
 
+.logo {
+  height: 20%;
+  width: 20%;
+  max-width: 200px;
+}
+
 .banner-img {
   width: 100%;
 }
