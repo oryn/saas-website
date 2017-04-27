@@ -75,8 +75,8 @@ h2 {
   color: black;
   font: bold 24px/45px Helvetica, sans-serif;
   letter-spacing: 1px;
-  padding: 10px;
   text-align: center;
+  margin: 0 0 -3.7rem;
 }
 
 .content {
